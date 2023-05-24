@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "setuptools>=64.0"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tictoc"
+description = "A timing package that mimics MATLAB's tic and toc functionality"
+readme = "README.md"
+requires-python = ">=3.8, <3.11"
+authors = [
+    {name = "Matthew Altberg"}
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "tictoc.__version__"}
