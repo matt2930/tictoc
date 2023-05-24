@@ -3,6 +3,7 @@ name: Upload to PyPI
 on:
   push:
     branches: ['main']
+    paths: ["src/tictoc/__init__.py", ".github/workflows/*"]
 
 jobs:
   push_to_pypi:
