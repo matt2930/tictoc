@@ -1,4 +1,4 @@
-# Tic Toc
+# MATLAB Tic Toc
 
 A Python module to make timing in python easier by mimicing MATLAB's `tic` and `toc` functions.
 `tic` starts a timer by recording the current time, and `toc` uses the start time to find the elapsed time.
