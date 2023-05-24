@@ -2,7 +2,7 @@ name: Upload to PyPI
 
 on:
   push:
-    - main
+    branches: ['main']
 
 jobs:
   push_to_pypi:
