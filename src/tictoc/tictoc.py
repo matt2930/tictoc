@@ -87,8 +87,8 @@ def toc(timer: Optional[Timer] = None):
     return
 
 def func_timer(func):
-    def timer_wrapper(func):
+    def timer_wrapper(*args, **kwargs):
         _func_timer = tic()
-        func()
+        func(*args, **kwargs)
         print(f'Elapsed time for function {func.__name__} is {toc(_func_timer)} seconds.')
     return timer_wrapper
