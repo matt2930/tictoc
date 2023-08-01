@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 name = "matlab-tictoc"
 description = "A timing package that mimics MATLAB's tic and toc functionality"
 readme = "README.md"
-requires-python = ">=3.7, <3.11"
+requires-python = ">=3.7"
 authors = [
     {name = "Matthew Altberg"}
 ]
